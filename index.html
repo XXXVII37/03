@@ -84,9 +84,17 @@
             <p>喵</p>
         </section>
     </main>
-    
+     <h1>这是第一页</h1>
+    <p>点击下面的按钮跳转到第二页：</p>
+    <button class="button" onclick="goToPage2()">跳转到第二页</button>
+
+    <script>
+        function goToPage2() {
+            window.location.href = "page2.html"; // 跳转到第二页
+        }
+    </script>
     <footer>
-        <p>&copy;这是一个结束语</p>
+        <p>这是一个结束语</p>
     </footer>
 </body>
 </html>
